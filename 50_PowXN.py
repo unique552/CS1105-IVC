@@ -12,5 +12,6 @@ def myPow(x: float, n: int) -> float:
             result *= x
         x *= x
         n //= 2
+
     
     return result
